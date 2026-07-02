@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map - Drought Information System Mapping</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Georgia, serif;
+            background:#ffffff;
+        }
+
+        /* NAVBAR */
+
+        .navbar{
+            height:50px;
+            background:linear-gradient(to right,#2b160b,#7a4b2b);
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:0 40px;
+        }
+
+        .back-btn{
+            text-decoration:none;
+            color:white;
+            font-size:22px;
+            font-weight:bold;
+        }
+
+        .menu{
+            color:white;
+            font-size:24px;
+            font-weight:bold;
+        }
+
+        /* CONTENT */
+
+        .konten{
+            max-width:1200px;
+            margin:auto;
+            padding:50px;
+        }
+
+        .judul{
+            text-align:center;
+            font-size:60px;
+            color:#000000;
+            margin-bottom:40px;
+        }
+
+        .card{
+            background:#3b2314;
+            padding:25px;
+            border-radius:15px;
+            box-shadow:0 5px 15px rgb(248, 246, 246);
+            margin-bottom:30px;
+        }
+
+        h2{
+            color:#ffffff;
+            margin-bottom:20px;
+        }
+
+        iframe{
+            border-radius:10px;
+            margin-top:10px;
+        }
+
+        ul{
+            margin-left:30px;
+            line-height:2;
+            font: size 12px;
+            color:#ffffff;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+        <a href="index.html" class="back-btn">← Back</a>
+        <span class="menu">Map</span>
+    </nav>
+
+    <!-- CONTENT -->
+
+    <div class="konten">
+
+        <h1 class="judul">Map Area</h1>
+
+        <!-- GOOGLE MAPS -->
+
+        <div class="card">
+
+            <h2>Lokasi Kabupaten Gunungkidul</h2>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=..."
+                width="100%"
+                height="450"
+                style="border:0;"
+                allowfullscreen
+                loading="lazy">
+            </iframe>
+
+        </div>
+
+        <!-- FITUR -->
+
+        <div class="card">
+
+            <h2>Fitur yang Tersedia</h2>
+
+            <ul>
+                <li>SPEI (Standardized Precipitation Evapotranspiration Index)</li>
+                <li>NDVI (Normalized Difference Vegetation Index)</li>
+                <li>EVI (Enhanced Vegetation Index)</li>
+                <li>Drought Severity Map</li>
+                <li>Waktu Pengamatan</li>
+                <li>Informasi Per Kecamatan (Statistik)</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
