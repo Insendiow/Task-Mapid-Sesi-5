@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drought Information System Mapping</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            background:#fafafa;
+            font-family: Georgia, serif;
+            color:#0b0400;
+        }
+
+        /* NAVBAR */
+        nav{
+            height:50px;
+            background:linear-gradient(to right,#1e1208,#7b4a2b);
+            display:flex;
+            justify-content:flex-end;
+            align-items:center;
+            padding-right:40px;
+        }
+
+        nav span{
+            color:white;
+            font-size:24px;
+            font-weight:bold;
+        }
+
+        /* BODY */
+        .container{
+            text-align:center;
+            max-width:1300px;
+            margin: 120px auto;
+            padding:20px;
+        }
+
+        h1{
+            font-size:50px;
+            margin-bottom:30px;
+        }
+
+        h3{
+            font-size:30px;
+            margin-bottom:6px;
+        }
+
+        p{
+            font-size:18px;
+            line-height:1.7;
+            margin-bottom:20px;
+        }
+
+        /* BUTTON */
+        .buttons{
+            margin-top:80px;
+            display:flex;
+            justify-content:center;
+            gap:20px;
+        }
+
+        .btn{
+            text-decoration:none;
+            color:white;
+            background:linear-gradient(to right,#c97f57,#1e1208);
+            padding:25px 40px;
+            border-radius:15px;
+            font-size:24px;
+            font-weight:bold;
+            min-width:200px;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            transform:translateY(-3px);
+            opacity:0.9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <span>Home</span>
+    </nav>
+
+    <div class="container">
+
+        <h1>Drought Information System Mapping</h1>
+
+        <h3>Welcome to the Drought Information System Mapping website.</h3>
+
+        <p>
+            Platform ini menyediakan informasi komprehensif terkait kekeringan
+            di wilayah Kabupaten Gunungkidul
+            Mulai dari visualisasi kekeringan per wilayahnya serta informasi
+            terkait dengan bagaimana tingkat kekeringan itu sendiri.
+        </p>
+
+        <div class="buttons">
+            <a href="about.html" class="btn">About</a>
+            <a href="map.html" class="btn">Map</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
