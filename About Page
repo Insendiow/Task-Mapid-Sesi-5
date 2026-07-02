@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Drought Information System Mapping</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Georgia, serif;
+            background:#ffffff;
+        }
+
+        /* NAVBAR */
+
+        .navbar{
+            height:50px;
+            background:linear-gradient(to right,#2b160b,#7a4b2b);
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:0 40px;
+        }
+
+        .back-btn{
+            text-decoration:none;
+            color:white;
+            font-size:22px;
+            font-weight:bold;
+        }
+
+        .menu{
+            color:white;
+            font-size:24px;
+            font-weight:bold;
+        }
+
+        /* CONTENT */
+
+        .konten{
+            max-width:1200px;
+            margin:auto;
+            padding:50px;
+        }
+
+        .judul{
+            text-align:center;
+            font-size:60px;
+            color:#000000;
+            margin-bottom:40px;
+        }
+
+        .card-about{
+            background:#3b2314;
+            padding:15px;
+            border-radius:15px;
+            box-shadow:0 5px 15px rgba(63, 63, 63, 0.1);
+            line-height:1.8;
+            font: size 12px;
+            color:#ffffff;
+            margin-bottom:30px;
+        }
+
+        h2{
+            color:#000000;
+            margin-bottom:8px;
+            margin-top:8px;
+            font-size:px;
+        }
+
+        ul{
+            margin-left:6px;
+            line-height:2;
+            font: size 12px;px;
+        }
+
+        /* FORM */
+
+        .form-saran{
+            margin-top:30px;
+        }
+
+        label{
+            font-size:18px;
+            font-weight:bold;
+            color:#000000;
+        }
+
+        input,
+        textarea{
+            width:100%;
+            padding:6px;
+            margin-top:6px;
+            margin-bottom:6px;
+            border:1px solid #000000;
+            border-radius:8px;
+            font: size 12px;
+        }
+
+        textarea{
+            resize:vertical;
+        }
+
+        button{
+            background:linear-gradient(to right,#c57a48,#2b160b);
+            color:white;
+            border:none;
+            padding:14px 14px;
+            border-radius:10px;
+            font-size:12px;
+            font-weight:bold;
+            cursor:pointer;
+        }
+
+        button:hover{
+            opacity:0.9;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+        <a href="index.html" class="back-btn">← Back</a>
+        <span class="menu">About</span>
+    </nav>
+
+    <!-- CONTENT -->
+
+    <div class="konten">
+
+        <h1 class="judul">About Me</h1>
+
+        <div class="card-about">
+
+            <p>
+                Sarjana Geografi dengan pengalaman sebagai GIS Analyst intern di instansi
+                pemerintahan dan Asisten Praktikum. Terampil dalam pengolahan dan analisis
+                data spasial, citra satelit, dan foto udara menggunakan ArcMap, ArcGIS Pro,
+                QGIS, SNAP, ENVI, Agisoft Metashape, dan GEE. Memiliki pengalaman praktis 
+                menggunakan alat survei lapangan seperti GPS Garmin, GPS Geodetik, dan Drone 
+                untuk mengumpulkan data geospasial di lapangan.Terbiasa bekerja dalam tim 
+                lintas fungsi, menyusun dan menyajikan analisis dalam bentuk peta tematik 
+                dan laporan teknis untuk mendukung pengambilan keputusan berbasis data. Serta
+                memiliki ketertarikan pada isu lingkungan, kebencanaan, dan
+                pemanfaatan data geospasial lainnya untuk mendukung analisis keruangan.
+            </p>
+
+        </div>
+
+        <h2>Data Diri</h2>
+
+        <ul>
+            <li>
+                <strong>Nama Lengkap:</strong>
+                Surya Dewi, S.Geo.
+            </li>
+
+            <li>
+                <strong>Tempat Tanggal Lahir:</strong>
+                Lubuk Linggau, 18 Maret 2003
+            </li>
+
+            <li>
+                <strong>Riwayat Pendidikan:</strong>
+                Fakultas Geografi, Universitas Muhammadiyah Surakarta
+            </li>
+        </ul>
+
+        <!-- FORM -->
+
+        <div class="form-saran">
+
+            <h2>Form Saran</h2>
+
+            <p style="margin-bottom:20px;">
+                Kami sangat menghargai saran dan masukan untuk pengembangan website ini.
+            </p>
+
+            <form>
+
+                <label>Nama</label>
+                <input
+                    type="text"
+                    placeholder="Masukkan nama Anda"
+                >
+
+                <label>Email</label>
+                <input
+                    type="email"
+                    placeholder="Masukkan email Anda"
+                >
+
+                <label>Saran / Masukan</label>
+                <textarea
+                    rows="6"
+                    placeholder="Tuliskan saran atau masukan Anda di sini..."
+                ></textarea>
+
+                <button type="submit">
+                    Kirim Saran
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
